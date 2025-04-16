@@ -58,11 +58,10 @@ export default function RootLayout(
         <main className="flex-grow min-w-0 mt-6 px-2 md:px-0">
           <Navbar />
           {children}
-          
           <Analytics />
           <SpeedInsights />
+          <Footer />
         </main>
-        <Footer />
       </body>
     </html>
   )

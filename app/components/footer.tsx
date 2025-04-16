@@ -25,7 +25,7 @@ export default function Footer() {
             href="https://github.com/HanochY/Portfolio"
           >
             <ArrowIcon />
-            <p className="ml-2 h-7">view source</p>
+            <p className="ml-2 h-7">source code</p>
           </a>
       <p className="mt-8 text-neutral-600 dark:text-neutral-300">
         © {new Date().getFullYear()} MIT Licensed
