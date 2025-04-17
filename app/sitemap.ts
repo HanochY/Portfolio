@@ -1,5 +1,5 @@
 
-export const baseUrl = 'https://localhost'
+export const baseUrl = 'https://hanoch-yarkoni.vercel.app'
 
 export default async function sitemap() {
 
