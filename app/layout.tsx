@@ -16,10 +16,18 @@ export const metadata: Metadata = {
   },
   description: "Hanoch's very own portfolio website.",
   openGraph: {
-    title: 'My Portfolio',
-    description: 'This is my portfolio.',
+    title: 'Hanoch Yarkoni',
+    description: "Hanoch Yarkoni's portfolio website.",
     url: baseUrl,
-    siteName: 'My Portfolio',
+    images: [
+      {
+        url: '/assets/images/hanoch-logo.png',
+        width: 1200, 
+        height: 630,
+        alt: "Website Logo", 
+      },
+    ],
+    siteName: 'Hanoch Yarkoni',
     locale: 'en_US',
     type: 'website',
   },
