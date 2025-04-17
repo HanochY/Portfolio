@@ -1,7 +1,7 @@
-import CardSection from "./components/card-section"
-import Card from "./components/card"
-import MiniCardSection from "./components/mini-card-section"
-import MiniCard from "./components/mini-card"
+import CardSection from "../components/card-section"
+import Card from "../components/card"
+import MiniCardSection from "../components/mini-card-section"
+import MiniCard from "../components/mini-card"
 
 export default function Page() {
   return (

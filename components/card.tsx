@@ -1,5 +1,5 @@
 import React from 'react';
-import Icon  from 'app/components/icon'
+import Icon  from 'components/icon'
 
 export type CardProps = {
   title: string;

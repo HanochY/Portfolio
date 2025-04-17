@@ -1,5 +1,5 @@
 import React from 'react';
-import MiniIcon  from 'app/components/mini-icon'
+import MiniIcon  from 'components/mini-icon'
 
 export type MiniCardProps = {
   title: string;

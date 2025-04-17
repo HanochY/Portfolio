@@ -1,5 +1,5 @@
 import React from 'react';
-import { CardProps }  from 'app/components/card'
+import { CardProps }  from 'components/card'
 
 export type CardSectionProps = {
   title: string;
