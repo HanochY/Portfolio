@@ -9,8 +9,8 @@ export type MiniCardSectionProps = {
 const MiniCardSection: React.FC<MiniCardSectionProps> = ({ title, children }) => {
   return (
     <section>
-        <div className="text-xl font-semibold tracking-tighter">{title}</div>
-        <div className='flex'>
+        <div className="text-xl font-semibold tracking-tighter flex-wrap">{title}</div>
+        <div className='flex flex-wrap'>
         {children}
         </div>
     </section>

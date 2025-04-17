@@ -11,10 +11,10 @@ export type CardProps = {
 const Card: React.FC<CardProps> = ({ title, imageSource, alt = '', children }) => {
   return (
     <div className="flex items-start gap-4 p-2 rounded-lg shadow">
-      <div className="p-4">
+      <div className="justify-center p-4">
       <Icon src={imageSource} alt={alt}/>
       </div>
-      <div className="flex flex-col justify-center p-2">
+      <div className="flex-4 flex flex-col justify-center p-2">
         <h3 className="text-lg font-semibold">{title}</h3>
         <div className="text-sm">
           {children}

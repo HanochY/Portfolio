@@ -12,7 +12,7 @@ const Icon: React.FC<IconProps> = ({ src, alt = '' }) => {
         width={64}
         height={64}
         alt={alt}
-        className="shrink-0 rounded"
+        className="object-contain"
       />
   );
 };
