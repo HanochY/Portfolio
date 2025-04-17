@@ -33,7 +33,9 @@ export function Navbar() {
               )
             })}
           </div>
-
+          <div className="ml-auto">
+            <Icon src="/favicon.ico"></Icon>
+          </div>
         </nav>
       </div>
     </aside>
