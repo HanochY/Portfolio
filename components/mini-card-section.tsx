@@ -1,5 +1,5 @@
 import React from 'react';
-import { MiniCardProps }  from 'app/components/mini-card'
+import { MiniCardProps }  from 'components/mini-card'
 
 export type MiniCardSectionProps = {
   title: string;
