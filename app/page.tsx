@@ -17,17 +17,19 @@ export default function Page() {
         }
       </p>
       <CardSection title='My Experience'>
+        <Card title="Drivenets" imageSource="/assets/images/dn.png">
+        <h3 className="mt-1 font-semibold">Backend Software Engineer</h3>
+        <p className="mb-1">Jun 2025 - Present | Full-time</p>
+        </Card>
         <Card title="IDF Cyber Defense Corps" imageSource="/assets/images/cyber-defense-idf.png">
-        <h3 className="mt-1 font-semibold">Software Engineer Team Lead</h3> 
-        <p className="mb-1">Mar 2024 - Apr 2025 | Full-time</p>
-        <h3 className="mt-1 font-semibold">Software Engineer</h3>
-        <p className="mb-1">Aug 2022 - Mar 2024 | Full-time</p>
+        <h3 className="mt-1 font-semibold">Full-stack Software Engineer</h3>
+        <p className="mb-1">Aug 2022 - Apr 2025 | Full-time</p>
         </Card>
       </CardSection>
       <CardSection title='My Education'>
       <Card title="Israeli Open University" imageSource="/assets/images/openu.png">
         <h3 className="mt-1 font-semibold">B.Sc. Computer Science</h3> 
-        <p className="mb-1">Dec 2023 - </p>
+        <p className="mb-1">Dec 2023 - Present</p>
         </Card>
         <Card title="Basmach - IDF School of Computer Science" imageSource="/assets/images/BSMCH.jpg">
         <h3 className="mt-1 font-semibold">Cyber Security Engineer</h3> 
